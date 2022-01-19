@@ -1,7 +1,3 @@
-const buttonEl = document.createElement("button");
+const bodyEl = document.querySelector("body");
 
-buttonEl.textContent = "ボタン";
-
-const divEl = document.querySelector(".container");
-
-divEl.appendChild(buttonEl);
+bodyEl.textContent = null;

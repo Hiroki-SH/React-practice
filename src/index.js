@@ -1,14 +1,7 @@
-const title1 = document.getElementById("title");
-console.log(title1);
+const buttonEl = document.createElement("button");
 
-const title2 = document.querySelector("#title");
-console.log(title2);
+buttonEl.textContent = "ボタン";
 
-const containers = document.getElementsByClassName("container");
-console.log(containers);
+const divEl = document.querySelector(".container");
 
-// const container = document.querySelector(".container");
-// console.log(container);
-
-// const containers = document.querySelectorAll(".container");
-// console.log(containers)
+divEl.appendChild(buttonEl);
